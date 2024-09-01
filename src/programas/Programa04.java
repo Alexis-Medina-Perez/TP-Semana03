@@ -16,7 +16,7 @@ public class Programa04 {
         Scanner lectura = new Scanner(System.in);
         
         //Lectura de datos
-        System.out.print("Ingrese la velocidad del vehículo: ");
+        System.out.print("Ingrese la velocidad del vehiculo: ");
         velocidad = lectura.nextDouble();
         
         //Proceso de datos
@@ -29,7 +29,7 @@ public class Programa04 {
         }
         if (velocidad <= 80) {
             
-            mensaje = "Mantenga la velocidad";            
+            mensaje = "Mantenga su velocidad de " + velocidad + " km/h.";            
         
         }
         
