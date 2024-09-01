@@ -25,8 +25,6 @@ public class Programa06 {
         System.out.print("Ingrese el puntaje obtenido: ");
         puntos = lectura.nextInt();
         
-        //Inicializar variable
-        
         //Proceso de datos
         if (puntos >= 1000) {
         
